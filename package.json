@@ -1,6 +1,6 @@
 {
   "name": "npm_ts_package",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "typescript based node package template",
   "main": "lib/index.js",
   "repository": {
