@@ -1,8 +1,14 @@
 {
   "name": "npm_ts_package",
   "version": "0.0.3",
-  "description": "test ts package",
+  "description": "typescript based node package template",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rigbin/ts-package-template"
+  },
+  "homepage": "https://github.com/Rigbin/ts-package-template#readme",
+  "author": "Harald Schwab <github@rigbit.at> (https://www.rigbit.at/)",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"./{src,test}/**/*.{js,ts}\"",
@@ -19,7 +25,6 @@
     "npm",
     "testing"
   ],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^27.0.3",
