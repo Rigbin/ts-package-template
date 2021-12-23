@@ -2,7 +2,7 @@
   "name": "npm_ts_package",
   "version": "0.0.1",
   "description": "test ts package",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"./{src,test}/**/*.{js,ts}\"",
