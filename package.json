@@ -9,6 +9,7 @@
     "lint": "tsc --noEmit && eslint \"src/**/*.{js,ts}\" --quiet --fix",
     "prebuild": "npm run lint",
     "prepare": "npm run build",
+    "preversion": "npm run lint && npm run format",
     "test": "jest --silent",
     "test:coverage": "jest --coverage --silent",
     "test:watch": "jest --watchAll --silent"
